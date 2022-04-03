@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background: url(wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+:root{
+    --navbarColor: rgb(23, 23, 23);
+}
+
+#navbar{
+    background-color: var(--navbarColor);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.navItensStyle{
+    height: 70px;
+    background-color: rgba(240, 240, 240, 0);
+    border: 0px none rgba(255, 0, 0, 0);
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Bebas Neue'
+}
+
+.navItens{
+    margin-left: 50px;
+    color: white;
+}
+
+#navItem1{
+    margin-left: 200px;
+}
+
+#navItem1:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--navbarColor);
+}
+
+#navItem2:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--navbarColor);
+}
+
+#navItem3:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--navbarColor);
+}
+
+/*FOOTER*/
+#footer{
+    margin-top: 1000px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+/*PANEL CSS*/
+#Panel{
+    width: 600px;
+    height: 690px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px 10px;
+}
+
+#panelTitle{
+    background-color: rgb(23, 23, 23);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color:white;
+    font-size: 40px;
+    font-family: 'Bebas Neue'
+}
+
+#nameDiv{
+    margin-top: 30px;
+}
+
+.itensClass{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    /*-top-right-radius: 50px;
+    border-end-end-radius: 50px;*/
+    padding-left: 10px;
+    font-family: 'Roboto Slab';
+}
+
+.labelsNotVar{
+    color:rgb(255, 255, 255);
+}
+
+#lblBg{
+    width: 575px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*TEXTBOX STYLE */
+input[type="text"]
+{
+    font-size:24px;
+    font-family: 'Roboto Slab';
+    background-color: rgba(255, 255, 255, 0.468);
+    color:rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 370px;
+    border: none;
+    outline-style: double;
+    outline: none;
+}
+
+/*TEXTBOX POSITION*/
+.textboxPosition{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/*BUTTONS LOGIN & CLEAR */
+#loginBtn{
+    margin-top: 20px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    border: none;
+    width: 380px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#loginBtn:hover{
+    color: rgb(202, 202, 202);
+}
+/*
+#clearBtn{
+    margin-top: 10px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    border: none;
+    width: 380px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#clearBtn:hover{
+    color: rgb(202, 202, 202);
+}
+*/
+
